@@ -15,7 +15,7 @@
 
 ## 步骤
 
-1. [ ] Discord 白名单工单（dreamDEX Discord，附 DoraHacks 邮箱）
+1. [x] Discord 白名单工单 ticket-DX-0287（Partnerships；等人工）
 2. [ ] fork/clone bot-kit；跑通 `perp-starter`（testnet 纸面 USDso / Perps Arena）
 3. [ ] 包一层「agent」叙事：session/bot key 限权下单、简单策略或 x402 风格触发（能讲清即可）
 4. [ ] 收集 tx hash；写 README + 短 demo 说明

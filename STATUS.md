@@ -95,9 +95,8 @@ Hideki RPC default in kit: `https://api.hideki2.infra.testnet.somnia.network` (n
 ## GitHub
 
 - Outward account: **zwang1111**
-- Intended repo name: `dreamdex-perps-agent` (or similar)
-- `GITHUB_PUSH_TOKEN` authenticates as `zwang1111` but **cannot create repos** (`403 Resource not accessible by personal access token`).
-- **No push performed.** Code remains local only until a token with `repo` (create) scope is available or the user creates an empty repo in the UI and we push.
+- Public repo: https://github.com/zwang1111/dreamdex-perps-agent (`main` @ `45233f1`)
+- `agenttab-push` PAT now includes this repo (Contents R/W). Create-repo still not on token; empty repo was created in UI then pushed.
 
 ## Blockers
 
