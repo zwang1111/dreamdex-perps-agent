@@ -1,0 +1,33 @@
+# secrets — never commit
+.env
+.env.local
+.env.*.local
+*.key
+keystore.json
+**/keystore.json
+
+# bot-kit install artifacts (source tree kept; nested .git stays upstream clone)
+bot-kit/node_modules/
+bot-kit/**/node_modules/
+bot-kit/dist/
+bot-kit/**/dist/
+bot-kit/*.tsbuildinfo
+bot-kit/**/*.tsbuildinfo
+bot-kit/logs/
+bot-kit/state/
+bot-kit/artifacts/
+bot-kit/.cache/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os / editor
+.DS_Store
+.cursor/
+
+# Nested upstream clone (own .git → somnia-chain/dreamdex-bot-kit). Re-clone if missing:
+#   git clone --depth 1 https://github.com/somnia-chain/dreamdex-bot-kit.git bot-kit
+bot-kit/
